@@ -6,6 +6,16 @@
    by the user. At the end of the simulation, the program outputs the total
    percentage of trees burned. Tree data can also be output at each time step
    if a filename is provided by the user.
+
+   Command line options:
+     -r: number of rows
+     -c: number of columns
+     -b: burn probability [0..100]
+     -m: maximum number of burn steps per tree
+     -t: number of time steps in simulation
+     -s: random seed
+     -o: filename for output
+     -f: random burn location (no argument)
    */
 
 /* Author: Aaron Weeden, Shodor, 2015 */
