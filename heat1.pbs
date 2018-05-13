@@ -1,0 +1,9 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=32:xe
+#PBS -l walltime=00:05:00
+#PBS -N heat1
+##PBS -l advres=baqk
+
+cd $PBS_O_WORKDIR
+
+aprun -n 1 -d 1 ./heat1.exe -x 3000 -y 3000
