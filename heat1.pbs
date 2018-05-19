@@ -2,7 +2,6 @@
 #PBS -l nodes=1:ppn=32:xe
 #PBS -l walltime=00:05:00
 #PBS -N heat1
-##PBS -l advres=baqk
 
 cd $PBS_O_WORKDIR
 
